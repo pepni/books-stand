@@ -1,0 +1,21 @@
+.BookList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  object-fit: contain;
+
+  .title {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .list {
+    height: 260px;
+    padding: 20px 0 10px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    overflow-x: auto;
+  }
+}
